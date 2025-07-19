@@ -89,56 +89,56 @@ DevConnect is a single‑page web application that lets teams:
 
 ## Environment Variables
 
-Copy `.env.example` to `.env` in the **server** folder and fill in:
+Copy .env.example to .env in the **server** folder and fill in:
 
 Setup & Build
 1. Clone Repository
-        git clone https://github.com/yourusername/devconnect.git
-        cd devconnect
+`git clone https://github.com/yourusername/devconnect.git
+cd devconnect`
 
 2. Configure Backend
-	cd server
-	cp .env.example .env
-	# edit .env with your values
-	npm install
+`cd server`
+`cp .env.example .env`
+# edit .env with your values
+`npm install`
 
 3. Configure Frontend
-        cd server
-        cp .env.example .env
-        # edit .env with your values
-        npm install
+   `cd server`
+   `cp .env.example .env`
+   # edit .env with your values
+   `npm install`
 
 
 Running the App
 1. Start Backend 
-        cd server
-        npm run dev
+        `cd server
+        npm run dev`
 
 2. Start Frontend
-        cd ../client
-        npm run dev
+        `cd ../client
+        npm run dev`
 
 3. Open in Browser
 
 
 API Endpoints
 Authentication
-POST /api/auth/register – create new user
+POST `/api/auth/register` – create new user
 
-POST /api/auth/login – user login, returns JWT
+POST `pi/auth/login` – user login, returns JWT
 
 AI Services
-POST /api/ai/autocomplete – code completion suggestions
+POST `/api/ai/autocomplete` – code completion suggestions
 
-POST /api/docs/generate – generate documentation from code
+POST `/api/docs/generate` – generate documentation from code
 
-POST /api/issue/explain – explain error message or code snippet
+POST `/api/issue/explain` – explain error message or code snippet
 
 Task Board
-GET /api/tasks – list all tasks
+GET `/api/tasks` – list all tasks
 
-POST /api/tasks – create a new task
+POST `/api/tasks` – create a new task
 
-PUT /api/tasks/:id – update an existing task
+PUT `/api/tasks/` :id – update an existing task
 
-DELETE /api/tasks/:id – delete a task
+DELETE `/api/tasks/` :id – delete a task
