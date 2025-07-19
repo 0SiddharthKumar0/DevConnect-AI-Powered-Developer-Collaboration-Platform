@@ -14,9 +14,7 @@
 6. [Environment Variables](#environment-variables)  
 7. [Setup & Build](#setup--build)  
 8. [Running the App](#running-the-app)  
-9. [API Endpoints](#api-endpoints)  
-10. [Next Steps](#next-steps)  
-11. [License](#license)  
+9. [API Endpoints](#api-endpoints)
 
 ---
 
@@ -99,13 +97,13 @@ cd devconnect`
 2. Configure Backend
 `cd server`
 `cp .env.example .env`
-# edit .env with your values
+edit .env with your values
 `npm install`
 
 3. Configure Frontend
    `cd server`
    `cp .env.example .env`
-   # edit .env with your values
+edit .env with your values
    `npm install`
 
 
@@ -121,20 +119,20 @@ Running the App
 3. Open in Browser
 
 
-API Endpoints
+## API Endpoints
 Authentication
 POST `/api/auth/register` – create new user
 
 POST `pi/auth/login` – user login, returns JWT
 
-AI Services
+## AI Services
 POST `/api/ai/autocomplete` – code completion suggestions
 
 POST `/api/docs/generate` – generate documentation from code
 
 POST `/api/issue/explain` – explain error message or code snippet
 
-Task Board
+## Task Board
 GET `/api/tasks` – list all tasks
 
 POST `/api/tasks` – create a new task
