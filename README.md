@@ -66,26 +66,26 @@ DevConnect is a single‑page web application that lets teams:
 ---
 
 ## Folder Structure
-DevConnect/
-├── client/ # React frontend
-│ ├── public/ # static assets and index.html
-│ ├── src/
-│ │ ├── api/ # axios wrappers (auth, ai, docs, issue, tasks)
-│ │ ├── components/ # reusable UI components (Layout, Navbar, Editor, Docs, Issue, Board)
-│ │ ├── pages/ # page-level components (Dashboard, EditorPage, DocsPage, IssuePage)
-│ │ ├── index.css
-│ │ └── index.js # React entry point
-│ ├── package.json
-│ └── tailwind.config.js
-├── server/ # Express backend
-│ ├── config/ # database connection
-│ ├── controllers/ # business logic for auth, ai, docs, issue, tasks
-│ ├── models/ # Mongoose schemas (User, Task)
-│ ├── routes/ # route definitions
-│ ├── index.js # server entry point
-│ └── package.json
-├── .env.example # sample environment variables
-└── README.md # project overview and instructions
+	DevConnect/
+	├── client/ # React frontend
+	│ ├── public/ # static assets and index.html
+	│ ├── src/
+	│ │ ├── api/ # axios wrappers (auth, ai, docs, issue, tasks)
+	│ │ ├── components/ # reusable UI components (Layout, Navbar, Editor, Docs, Issue, Board)
+	│ │ ├── pages/ # page-level components (Dashboard, EditorPage, DocsPage, IssuePage)
+	│ │ ├── index.css
+	│ │ └── index.js # React entry point
+	│ ├── package.json
+	│ └── tailwind.config.js
+	├── server/ # Express backend
+	│ ├── config/ # database connection
+	│ ├── controllers/ # business logic for auth, ai, docs, issue, tasks
+	│ ├── models/ # Mongoose schemas (User, Task)
+	│ ├── routes/ # route definitions
+	│ ├── index.js # server entry point
+	│ └── package.json
+	├── .env.example # sample environment variables
+	└── README.md # project overview and instructions
 
 ## Environment Variables
 
