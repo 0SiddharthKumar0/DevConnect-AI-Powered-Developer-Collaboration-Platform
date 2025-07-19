@@ -93,30 +93,30 @@ Copy `.env.example` to `.env` in the **server** folder and fill in:
 
 Setup & Build
 1. Clone Repository
-git clone https://github.com/yourusername/devconnect.git
-cd devconnect
+        git clone https://github.com/yourusername/devconnect.git
+        cd devconnect
 
 2. Configure Backend
-cd server
-cp .env.example .env
-# edit .env with your values
-npm install
+	cd server
+	cp .env.example .env
+	# edit .env with your values
+	npm install
 
 3. Configure Frontend
-cd server
-cp .env.example .env
-# edit .env with your values
-npm install
+        cd server
+        cp .env.example .env
+        # edit .env with your values
+        npm install
 
 
 Running the App
 1. Start Backend 
-cd server
-npm run dev
+        cd server
+        npm run dev
 
 2. Start Frontend
-cd ../client
-npm run dev
+        cd ../client
+        npm run dev
 
 3. Open in Browser
 
